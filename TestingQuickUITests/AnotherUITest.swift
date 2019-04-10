@@ -1,5 +1,5 @@
 //
-//  TestingQuickUITests.swift
+//  AnotherUITest.swift
 //  TestingQuickUITests
 //
 //  Created by Guillermo Zafra on 10/04/2019.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class TestingQuickUITests: XCTestCase {
+class AnotherUITest: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
