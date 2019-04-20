@@ -16,8 +16,8 @@ target 'TestingQuick' do
     inherit! :search_paths
     # Pods for testing
 
-  pod 'Quick', '~> 2.0.0'
-  pod 'Nimble', '~> 8.0.1'
+    pod 'Quick', git: 'git@github.com:Quick/Quick.git', branch: 'fix-issue853'
+    pod 'Nimble', '~> 8.0.1'
   end
 
 end
