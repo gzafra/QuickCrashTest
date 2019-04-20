@@ -1,20 +1,29 @@
 PODS:
   - Nimble (8.0.1)
-  - Quick (2.0.0)
+  - Quick (2.1.0)
 
 DEPENDENCIES:
   - Nimble (~> 8.0.1)
-  - Quick (~> 2.0.0)
+  - "Quick (from `git@github.com:Quick/Quick.git`, branch `fix-issue853`)"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Nimble
-    - Quick
+
+EXTERNAL SOURCES:
+  Quick:
+    :branch: fix-issue853
+    :git: "git@github.com:Quick/Quick.git"
+
+CHECKOUT OPTIONS:
+  Quick:
+    :commit: f5faa4ce3bfd050428d4e7a6befbd9a35740a29d
+    :git: "git@github.com:Quick/Quick.git"
 
 SPEC CHECKSUMS:
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
-  Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
+  Quick: 6a4c91f1484591bb4b08850cd3c70216e3fc6518
 
-PODFILE CHECKSUM: ed275c4848fa44c43d13f872028d4e993653adfe
+PODFILE CHECKSUM: 613f1587c61e45c2e0ffb62e73dc2dd8d5f41272
 
 COCOAPODS: 1.6.1
